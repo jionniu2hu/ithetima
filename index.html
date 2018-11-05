@@ -1,131 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cmn">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
-    <link rel="stylesheet" href="css\base.css">
-    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <!-- 搜索头部 -->
     <header>
         <div>
             <a href="#"><img class="logo" src="images/logo.jpg" alt=""></a>
+            <!-- 搜索按钮 -->
             <form action="#">
-                <input type="search" class="search_icon" placeholder="搜索你心动的商品">
+                <span></span>
+                <input type="search" class="search_icon" placeholder="搜索商品">
             </form>
-            <a href="#" class="login">登录</a>
+            <a href="#" class="logo">登录</a>
         </div>
     </header>
-
+    <!-- 轮播图 -->
     <div class="slider">
-		<div id="images">
-			<a href="#" class="dispalyImg"><img src="images/01.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/02.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/03.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/04.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/05.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/06.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/07.jpg" alt=""></a>
-			<a href="#" class="hiddenImg"><img src="images/08.jpg" alt=""></a>
-		</div>
-		<div>
-			<p class="leftButton btn">上一张</p>
-			<p class="rightButton btn">下一张</p>
-		</div>
-		<ul class="txt-box">
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-			<li class="txtItem normalColor">
-				<p>5</p>
-				<p>5</p>
-			</li>
-		</ul>
+        <div id="images">
+            <a href="#" class="displayImg"><img src="images/index_01.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_02.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_03.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_04.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_05.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_06.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_07.jpg" alt=""></a>
+            <a href="#" class="hiddenImg"><img src="images/index_08.jpg" alt=""></a>
+        </div>
+        <div>
+            <p class="leftButton btn">上一张</p>
+            <p class="rightButton btn"> 下一张</p>
+        </div>
+        <ul class="txt-box">
+            <li class="txtItem heighlightColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+            <li class="txtItem normalColor">
+                <p>11</p>
+                <p>11</p>
+            </li>
+        </ul>
     </div>
-    
 
+    <!-- 导航栏模块 -->
     <nav>
         <ul>
             <li>
                 <a href="category.html">
-                    <img src="images/category.png" alt="">
+                    <img src="images/锦囊.png" alt="">
                     <p>分类查询</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/security.png" alt="">
-                    <p>安全中心</p>
+                    <img src="images/手机.png" alt="">
+                    <p>京东超市</p>
                 </a>
             </li>
             <li>
                 <a href="cart.html">
-                    <img src="images/shopping_cart.png" alt="">
-                    <p>购 物 车</p>
+                    <img src="images/咖啡.png" alt="">
+                    <p>购物车</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/me.png" alt="">
+                    <img src="images/位置.png" alt="">
                     <p>个人中心</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/vip.png" alt="">
-                    <p>V I P</p>
+                    <img src="images/卡券.png" alt="">
+                    <p>充值中心</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/gift.png" alt="">
-                    <p>礼 物</p>
+                    <img src="images/礼物.png" alt="">
+                    <p>京东理财</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/order.png" alt="">
-                    <p>订 单</p>
+                    <img src="images/加油站.png" alt="">
+                    <p>京东培训</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/scan.png" alt="">
-                    <p>扫 一 扫</p>
+                    <img src="images/相机.png" alt="">
+                    <p>京东圈子</p>
                 </a>
             </li>
         </ul>
     </nav>
-    <script src="js\index.js"></script>
+    
+    <!-- 商品 -->
+    <div class="product">
+        <!-- 商品子盒子 -->
+        <div class="product_box">
+            <!-- 头部 -->
+            <div class="product_box_header">
+                <div class="product_box_header_left">
+                    <span class="sk_icon"></span>
+                    <span class="sk_name">掌上秒杀</span>
+                    <div class="sk_time">
+                        <span>0</span>
+                        <span>0</span>
+                        <span class="punctuation_mark">:</span>
+                        <span>0</span>
+                        <span>0</span>
+                        <span class="punctuation_mark">:</span>
+                        <span>0</span>
+                        <span>0</span>
+                    </div>
+                </div>
+                <div class="product_box_header_right">
+                    <div class="product_box_header_moer"><a href="#">更多&gt;</a></div>
+                </div>
+            </div>
+            <!-- 内容 -->
+            <div class="product_box_con">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/index_09.jpg" alt="">
+                            <p>&yen;4999</p>
+                            <p>&yen;7000</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index_10.jpg" alt="">
+                            <p>&yen;8000</p>
+                            <p>&yen;9000</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index_11.jpg" alt="">
+                            <p>&yen;12000</p>
+                            <p>&yen;35780</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 商品子盒子 -->
+        <div class="product_box">
+            <!-- 头部 -->
+            <div class="product_box_header"><span class="vip">VIP优惠精品</span></div>
+            <!-- 内容 -->
+            <div class="vip_content">
+                <a href="#">
+                    <img src="images/index_12.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/index_13.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/index_14.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

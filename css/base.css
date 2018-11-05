@@ -1,4 +1,4 @@
-body{
+body,p{
     margin: 0;
     padding: 0;
 }
@@ -15,3 +15,45 @@ p,span{
     text-align: center;
 }
 
+
+@media screen and (max-width: 540px){
+    /* header{
+        background: pink;
+    } */
+}
+@media (min-width: 541px) and (max-width: 960px){
+    .slider{
+        height: 300px;
+    }
+    #images img{
+        height: 300px;  
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .product .vip_content a img{
+        height: 300px;
+    }
+    .vip_content a:first-of-type img{
+        height: 600px;
+    }
+}
+@media screen and (min-width: 961px){
+    .slider{
+        height: 460px;
+    }
+    #images img{
+        height: 460px;  
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .product .vip_content a img{
+        height: 400px;
+    }
+    .vip_content a:first-of-type img{
+        height: 800px;
+    }
+}
