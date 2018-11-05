@@ -1,24 +1,22 @@
-/* 定义商品分类页顶部通栏 */
-
+/* 定义顶部通栏 */
 .topBar{
     width: 100%;
     height: 45px;
     border-bottom: 1px dashed #ccc;
 }
-.topBar > div{
+.topBar div{
     width: 100%;
     display: flex;
     justify-content:space-between; 
     align-items:center; 
-    background-image: url(../images/topBarBGImg.PNG);
+    background-image: url(../images/category_03.PNG);
     position: fixed;
-    z-index: 999;
 }
 .topBar .back{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/back.png);
+    background-image: url(../images/category_04.png);
     background-position: center center;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -27,14 +25,14 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-image: url(../images/menu.png);
+    background-image: url(../images/category_05.png);
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 10px;
 }
 .topBar form{
     width: 100%;
-    height: 44px;
+    height: 50px;
     padding: 0 20px;
 }
 .topBar form input{
@@ -45,6 +43,7 @@
     margin-top: 7px;
 }
 /* 一级分类 */
+/* 左侧栏 */
 .hm_category_left{
     width: 90px;
     height: 100%;
@@ -69,35 +68,36 @@
     color: #dd4b26;
 }
 /* 二级分类 */
-.category_right{
+/* 右侧栏 */
+.hm_category_right{
     overflow: hidden;
     height: 100%;
     padding: 0 10px;
 }
-.category_right .banner{
+.hm_category_right .banner{
     width: 100%;
     padding-top: 10px;
     display: block;
 }
-.category_right .banner>img{
+.hm_category_right .banner>img{
     width: 100%;
 }
-.category_right h3{
+.hm_category_right h3{
     font-size: 14px;
 }
-.category_right ul{
+.hm_category_right ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.category_right ul li{
+.hm_category_right ul li{
     width: 33.333%;
     max-width: 230px;
 }
-.category_right ul li a{
+.hm_category_right ul li a{
     display: block;
 }
-.category_right ul li > a >img{
+.hm_category_right ul li > a >img{
     display: block;
     width: 100%;
 }
