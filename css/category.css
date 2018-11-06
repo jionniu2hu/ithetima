@@ -1,103 +1,60 @@
-/* 定义顶部通栏 */
-.topBar{
-    width: 100%;
-    height: 45px;
-    border-bottom: 1px dashed #ccc;
-}
-.topBar div{
-    width: 100%;
-    display: flex;
-    justify-content:space-between; 
-    align-items:center; 
-    background-image: url(../images/category_03.PNG);
-    position: fixed;
-}
-.topBar .back{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../images/category_04.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-}
-.topBar .menu{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../images/category_05.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-}
-.topBar form{
-    width: 100%;
-    height: 50px;
-    padding: 0 20px;
-}
-.topBar form input{
-    width: 100%;
-    height: 30px;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    margin-top: 7px;
-}
 /* 一级分类 */
 /* 左侧栏 */
-.hm_category_left{
+.category_left{
     width: 90px;
     height: 100%;
     overflow: hidden;
     float: left;
 }
-.hm_category_left >ul >li{
+.category_left >ul >li{
     width: 89px;
     height: 50px;
     text-align: center;
     line-height: 50px;
-    border-right: 1px dashed #ccc;
-    border-bottom: 1px dashed #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
-.hm_category_left>ul >li a{
+.category_left>ul >li a{
     display: block;
 }
-.hm_category_left >ul >li .now{
+.category_left >ul >li .now{
     border-right: none;
 }
-.hm_category_left> ul> li .now a{
+.category_left> ul> li .now a{
     color: #dd4b26;
 }
+
 /* 二级分类 */
 /* 右侧栏 */
-.hm_category_right{
+.category_right{
     overflow: hidden;
     height: 100%;
     padding: 0 10px;
 }
-.hm_category_right .banner{
+.category_right .banner{
     width: 100%;
     padding-top: 10px;
     display: block;
 }
-.hm_category_right .banner>img{
+.category_right .banner>img{
     width: 100%;
 }
-.hm_category_right h3{
+.category_right h3{
     font-size: 14px;
 }
-.hm_category_right ul{
+.category_right ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.hm_category_right ul li{
+.category_right ul li{
     width: 33.333%;
     max-width: 230px;
 }
-.hm_category_right ul li a{
+.category_right ul li a{
     display: block;
 }
-.hm_category_right ul li > a >img{
+.category_right ul li > a >img{
     display: block;
     width: 100%;
 }
